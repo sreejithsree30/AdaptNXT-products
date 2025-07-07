@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://adapt-nxt-products.vercel.app/api';
 
 function App() {
   const [products, setProducts] = useState([]);
